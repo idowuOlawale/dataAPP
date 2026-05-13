@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Buy Data</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body class="center">
+<div class="glass buy-card">
+<h2>Buy Data</h2>
+
+<input id="phone" placeholder="Phone Number">
+
+<select id="network">
+<option>MTN</option>
+<option>Airtel</option>
+</select>
+
+<select id="bundle">
+<option>500MB - ₦200</option>
+<option>1GB - ₦350</option>
+<option>2GB - ₦700</option>
+</select>
+
+<button class="btn" onclick="buyData()">Submit Order</button>
+</div>
+
+<script type="module" src="js/firebase.js"></script>
+<script type="module" src="js/orders.js"></script>
+</body>
+</html>

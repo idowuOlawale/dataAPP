@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Dashboard</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="dashboard">
+<aside class="sidebar glass">
+<h2>NaijaCryptoData</h2>
+<a href="dashboard.html">Dashboard</a>
+<a href="deposit.html">Deposit</a>
+<a href="buy-data.html">Buy Data</a>
+<a href="history.html">History</a>
+<a href="#" onclick="logout()">Logout</a>
+</aside>
+
+<main class="content">
+<div class="glass">
+<h1>Welcome</h1>
+<p>Your crypto-powered data vending dashboard.</p>
+</div>
+
+<div class="stats">
+<div class="glass stat">
+<h3>Wallet Balance</h3>
+<p>$0.00</p>
+</div>
+
+<div class="glass stat">
+<h3>Total Orders</h3>
+<p id="ordersCount">0</p>
+</div>
+</div>
+</main>
+</div>
+
+<script type="module" src="js/firebase.js"></script>
+<script type="module" src="js/dashboard.js"></script>
+</body>
+</html>
